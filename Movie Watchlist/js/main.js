@@ -1,15 +1,15 @@
-// Array to store the list of movies
+// Array of movies list
 let movieWatchlist = [];
 
-// Function to add a movie to the watchlist
+//add a movie to the watchlist
 function addMovie() {
-    const movieInput = document.getElementById('movie-name'); // Input field for the movie title
-    const movieTitle = movieInput.value.trim(); // Get the entered movie title
+    const movieInput = document.getElementById('movie-name')
+    const movieTitle = movieInput.value.trim(); 
 
-    // Check if the input is not empty
+    // Check input
     if (movieTitle !== '') {
-        movieWatchlist.push(movieTitle); // Add the movie to the watchlist array
-        movieInput.value = ''; // Clear the input field after adding
+        movieWatchlist.push(movieTitle); // Add movie to watchlist array
+        movieInput.value = ''; // Clear the input field
         displayWatchlist(); // Update the watchlist display
     } else {
         alert('Please enter a movie title.'); // Alert if the input is empty
