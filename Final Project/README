@@ -1,0 +1,81 @@
+Playbook Simulator
+
+The Playbook Simulator is an interactive web application designed to help users design, simulate, and analyze football plays. It allows for creative strategies and an engaging visualization of plays on a virtual field.
+
+Features
+
+Interactive Play Design:
+
+Drag-and-drop functionality to position players on the playfield.
+
+Save your designed plays for future reference.
+
+Multi-Page Navigation:
+
+"Home" page for an overview of the simulator.
+
+"Play Design" page for creating and visualizing plays.
+
+"About" page for information about the application.
+
+File Structure
+
+HTML
+
+The primary structure of the application is defined in the index.html file, which includes:
+
+Navigation links for switching between Home, Play Design, and About pages.
+
+A draggable playfield within the Play Design page for player positioning.
+
+JavaScript
+
+The interactive functionalities are managed using JavaScript, including:
+
+Navigation between pages.
+
+Drag-and-drop player movement.
+
+Saving play designs.
+
+CSS
+
+Basic styling is included within the <style> tag in the HTML for:
+
+Page layout.
+
+Navigation bar styling.
+
+Playfield appearance.
+
+How to Use
+
+Home Page:
+
+Access the application overview and get started.
+
+Play Design Page:
+
+Drag players onto the playfield by clicking and holding the draggable elements.
+
+Position players as needed to create your strategy.
+
+Save the play by clicking the "Save Play" button.
+
+About Page:
+
+Learn about the features and purpose of the simulator.
+
+Future Enhancements
+
+Implement player roles and animations.
+
+Add a library of pre-designed plays.
+
+Include a playback feature to simulate movement on the field.
+
+Enhance the save functionality to export plays to a file or database.
+
+Requirements
+
+A modern web browser supporting HTML5, CSS3, and JavaScript.
